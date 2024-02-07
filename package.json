@@ -1,0 +1,89 @@
+{
+  "name": "the_job_finder_ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/forms": "^0.5.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.7.0",
+    "axios": "^1.4.0",
+    "axios-mock-adapter": "^1.21.5",
+    "jest": "^27.5.1",
+    "jwt-decode": "^3.1.2",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^4.10.1",
+    "react-pdf": "^7.2.0",
+    "react-redux": "^8.1.1",
+    "react-router": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "scripts": {
+    "dev": "parcel",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --coverage --watchAll=false"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "babel-jest": "^29.6.2",
+    "daisyui": "^3.2.1",
+    "msw": "^1.2.3",
+    "tailwindcss-flip": "^1.0.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@storybook/addon-essentials": "7.0.3",
+    "@storybook/addon-interactions": "7.0.3",
+    "@storybook/addon-links": "7.0.3",
+    "@storybook/blocks": "7.0.3",
+    "@storybook/react": "7.0.3",
+    "@storybook/react-webpack5": "7.0.3",
+    "@storybook/testing-library": "0.2.0",
+    "htmlnano": "2.0.3",
+    "parcel": "^2.8.0",
+    "parcel-reporter-static-files-copy": "^1.5.0",
+    "postcss": "^8.4.27",
+    "process": "^0.11.10",
+    "storybook": "7.0.3",
+    "tailwindcss": "^3.3.3"
+  },
+  "proxy": "http://localhost:3000/"
+  
+}
+
